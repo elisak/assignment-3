@@ -1,0 +1,286 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@-moz-@viewport{ width: device-width; scale: 1;}
+@ms-@viewport{ width: device-width; scale: 1;}
+@-o-@viewport{ width: device-width; scale: 1;}
+@-webkit-@viewport{ width: device-width; scale: 1;}
+@viewport{ width: device-width; scale: 1;}
+
+html{
+	@-moz-text-size-adjust:100%;	
+	@-ms-text-size-adjust:100%;	
+	@-o-text-size-adjust:100%;	
+	@-webkit-text-size-adjust:100%;	
+	text-size-adjust:100%;
+}
+
+html, body{
+	width:100%;
+	font-family:"Times New Roman", Times, serif;
+/*	font-size: 1.10rem;
+*/	margin:0;
+	padding:0;
+}
+
+body{
+	background-image: url("community-centre.jpg");
+}
+
+img{
+	width:100%;
+
+
+}
+/*banner*/
+.pool{
+	display: block;
+	text-align: center;
+	color: white;
+	background-attachment: fixed;
+}
+
+.logo{
+	margin:-14rem 40%;
+	padding:15rem 0;
+	width: 15%;
+	display: block;
+
+}
+
+
+.main{
+	width:90%;
+	margin: 3rem 5%;
+}
+
+.main h2{
+	font-size: 1rem;
+	text-align:center;
+	padding: .5rem;	
+	margin-top: -3rem
+}
+
+	
+.header h1{
+	margin-bottom:1rem;
+	padding:0;
+	text-align: center;
+	font-size: 1.25rem;
+}
+
+.main2 p{
+	font-size:1rem;
+	line-height:1rem;
+	text-align:left;
+	margin-bottom:.5rem;
+	margin-left:.5rem;
+	margin-right:.5rem;
+	margin-top:.5rem;
+	font-weight: bold;
+
+}
+
+.p{
+	color: red;
+	font-style: italic;
+}
+
+/*@media only on screen and (min-width: 25em){
+	.main2 p{
+	margin: 1rem;
+
+	}
+
+}
+*/
+
+footer p{
+	font-size:.75rem;
+	font-family:"MS Serif", "New York", serif;
+	padding-left: .5rem;
+}
+
+/*Navigation Styles*/
+
+.nav-top{
+	display:block;
+}
+
+
+.nav a,
+.nav a:link,
+.nav a:visited{
+	background-color: #ABDDEB;
+	text-align: center;
+	display:block;
+	color: blue;
+	padding:.75rem;
+	margin: 0;
+	height: 45px;
+
+}
+
+.nav a:hover,
+.nav a:focus,
+.nav a:active{
+	background-color: grey;
+}
+
+@media only screen and (min-width:32em){
+	.nav{
+		overflow: auto;
+	}
+
+	.nav li{
+		float:left;
+		width:33.33%;
+		padding-top: .5rem;
+		text-align: center;
+
+	}
+	.nav-top{
+		display: block;
+	}
+
+	.header h1{
+	font-size: 2rem;
+}
+	.main h2{
+	font-size: 1.5rem;
+}
+	.main p{
+		font-size:1rem;
+		line-height: 1.25rem;
+	}
+	
+	footer p{
+	font-size:.80rem;
+	}
+}
+/*@media only screen and (min-width: 55em){
+	.home img{
+		float: right;
+		width: 50%;
+		margin:0 0 2rem 1rem;
+	}
+
+	.feature{
+		overflow: auto;
+	}
+}
+*/
+/*Prices*/
+
+.price-list li{
+/*		float:left;
+*/		width:20%;
+		padding-top: .5rem;
+		text-align: left;
+		margin: 1rem;
+}
+.price-list dt{
+	font-weight: bold;
+	font-size: 1.25rem;
+}
+.price-list dd:last-child{
+}
+
+@media only screen and (min-width:32em){}
+
+.price-table{
+	margin-bottom: 2rem;
+	display: none;
+}
+
+.price-table thread{
+	color: blue;
+}
+.price-table th,
+.price-table td{
+	padding: 1rem;
+	text-align: left;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight: bold;
+	background-color: lightblue;
+	border: solid;
+}
+
+@media only screen and (min-width: 25em){
+	.price-table{
+		display: table;
+	}
+
+	.price-list{
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 42.5em){
+	.price-table{
+		display: block;
+	}
+	.price-list{
+	display:none;
+	}
+}
+
+/*Hours-table*/
+
+.hours-list li{
+	margin: 1rem 0;
+	line-height: 1rem;
+
+}
+.hours-list dt
+.hours-list dd:last-child{
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+
+/*Schedule table*/
+
+.hours-table{
+	margin-top: 3rem;
+	margin-bottom:3rem;
+	padding-top: .25rem;
+	background-color:skyblue;
+	border: solid;
+	text-align: center;
+}
+
+
+.hours-table thead{
+}
+
+.hours-table th,
+.hours-table td{
+	padding: 1rem;
+	text-align: center;
+	border: solid;
+
+
+}
+
+.hours-table{
+	width:100%;
+	display: none;
+
+
+}
+
+@media only screen and (min-width: 25em){
+	.hours-table{
+		display: table;
+	}
+
+	.hours-list{
+		display: none;
+	}
+}
+
+
+
+
+
+
